@@ -33,7 +33,7 @@ a:hover {
 
 
 .masthead {
-  padding: 20em 0;
+  padding: 18em 0;
   background-image: url('http://i.imgur.com/318sNCr.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +78,12 @@ a:hover {
   }
 
 .about {
-  padding: 15em 0;
+  padding: 18em 0;
+ /* background: linear-gradient(
+      rgba(255, 255, 255, .2), 
+      rgba(255, 255, 255, .2)
+    ), url('http://i.imgur.com/dTOpcwd.png');
+  background-repeat: no-repeat;*/
 }
 
 
@@ -88,6 +93,7 @@ a:hover {
   margin-right: 15%;
   font-family: "PT Serif";
   font-size: 30px;
+
 
 }
 
@@ -102,27 +108,47 @@ a:hover {
 }
 
 .quotes {
-  padding: 7em 0;
-  background: linear-gradient(
-      rgba(34, 49, 50, 0.7), 
-      rgba(34, 49, 50, .7)
-    ), url('http://i.imgur.com/b0wkgi9.jpg');
+  padding: 22em 0;
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 1), 
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, .3),
+      rgba(255, 255, 255, .0)
+    ), url('http://i.imgur.com/gDkCKHM.jpg');
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: #303F3F;
   opacity: 1;
+
+  /* Old version---background-color: #303F3F;
+url('http://i.imgur.com/b0wkgi9.jpg');
+rgba(34, 49, 50, 0)*/
   }
 
-.quotes-body {
- text-align: center;
-  margin-right: 0em;
+.quotes-intro {
+ text-align: left;
+  margin-left: 10%;
   font-family: "PT Serif";
-  font-size: 30px;
-  color:white;
+  font-size: 35px;
+  color:black;
+  opacity: .9;
+  margin-top: .9em;
 }
+
+
+.quotes-body {
+ text-align: left;
+  font-family: "PT Serif";
+  font-size: 20px;
+  max-width: 15em;
+  padding: 1em 0;
+}
+
+
 
 .showcase
 {
-  padding: 10em 0;
+  padding: 22em 0;
   margin: 2em 0;
   
 }
@@ -131,8 +157,8 @@ a:hover {
 .showcase-body
 {
   max-width: 23em;
-  margin-left: 15%;
-  margin-bottom: 75%;
+  text-align: center;
+  margin: auto;  
   font-family: "PT Serif";
   color: black;
 }
@@ -140,17 +166,20 @@ a:hover {
 .footer {
   text-align: center;
   background: linear-gradient(
-      rgba(2, 28, 59, 0.1), 
-      rgba(2, 28, 59, .1)
-    ), url('http://i.imgur.com/HuEs7vr.jpg');
+      rgba(34, 49, 50, .7), 
+      rgba(34, 49, 50, .7)
+    ), url('http://i.imgur.com/b0wkgi9.jpg');
   padding: 6em 0;
   background-size: cover;
-  
+
+/*Old footer---http://i.imgur.com/HuEs7vr.jpg
+*/  
 }
 .footer-header {
   text-align: center;
   padding: 5em, 0em;
   font-family: "PT Serif";
+  font-size: 25px;
 
   
 }
@@ -164,6 +193,7 @@ a:hover {
 
 .footer-body > li {
   display: inline-block;
+  padding-top: 1rem;
 }
 
 
