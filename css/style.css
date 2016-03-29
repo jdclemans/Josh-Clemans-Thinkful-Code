@@ -6,7 +6,7 @@
 
 body {
   background-color:white;
-  font-family: lato, sans-serif;
+  font-family: 'lato', sans-serif;
   font-weight:100;
   font-size: 1em;
 }
@@ -108,13 +108,15 @@ a:hover {
 }
 
 .quotes {
-  padding: 22em 0;
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 1), 
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, .3),
-      rgba(255, 255, 255, .0)
+  padding: 6em 0 24em 0;
+    background: linear-gradient(
+      rgba(11, 175, 109, .4), 
+      rgba(11, 175, 109, .8)
     ), url('http://i.imgur.com/gDkCKHM.jpg');
+/*  background: linear-gradient(
+      rgba(34, 49, 50, .7), 
+      rgba(34, 49, 50, .7),
+    ), url('http://i.imgur.com/gDkCKHM.jpg');*/
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #303F3F;
@@ -126,18 +128,20 @@ rgba(34, 49, 50, 0)*/
   }
 
 .quotes-intro {
- text-align: left;
-  margin-left: 10%;
+ text-align: center;
+  margin: auto;
   font-family: "PT Serif";
-  font-size: 35px;
+  font-size: 3rem;
   color:black;
-  opacity: .9;
-  margin-top: .9em;
+  opacity: 1;
+  margin-top: 0em;
+  font-weight: 400;
 }
 
 
 .quotes-body {
- text-align: left;
+  text-align: center;
+  margin: auto;
   font-family: "PT Serif";
   font-size: 20px;
   max-width: 15em;
@@ -220,13 +224,13 @@ button:hover {
     }
 
     .masthead-heading {
-        font-size: .75em;
+        font-size: .9em;
   }
     .quotes {
       padding: 6em 0;
     }
     .about {
-      padding: 6em 3em;
+      padding: 6em 0em;
     }
     .showcase {
       padding: 6em 0;
@@ -241,6 +245,7 @@ button:hover {
     }
     .about-body {
       font-size: 1em;
+      padding: 0 0 0 3em;
 
     }
     .quotes-intro {
