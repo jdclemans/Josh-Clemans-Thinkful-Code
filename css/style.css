@@ -163,6 +163,24 @@ rgba(34, 49, 50, 0)*/
   color: black;
 }
 
+.button {
+  text-align: center;
+  margin-top: 2em; 
+  margin: auto auto; 
+  width: 100px;
+  height: 50px;
+  transition: background-color .3s ease;
+  background-color: #57A4D4;
+  border-radius: 10px;
+  font-family: inherit;
+  color: white;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0080ff ;
+}
+
 .footer {
   text-align: center;
   background: linear-gradient(
@@ -196,4 +214,57 @@ rgba(34, 49, 50, 0)*/
   padding-top: 1rem;
 }
 
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 6em 0;
+    }
+
+    .masthead-heading {
+        font-size: .75em;
+  }
+    .quotes {
+      padding: 6em 0;
+    }
+    .about {
+      padding: 6em 3em;
+    }
+    .showcase {
+      padding: 6em 0;
+    }
+    .footer {
+      padding: 3em 0;
+    }
+
+    .about-intro {
+      font-size: 2em;
+
+    }
+    .about-body {
+      font-size: 1em;
+
+    }
+    .quotes-intro {
+      font-size: 2em;
+
+    }
+    .quotes-body {
+      font-size: .5em;
+
+    }
+
+    .showcase-header,
+    .showcase-body {
+      font-size: 1em;
+      padding: 3em;
+
+    }
+    .footer-header {
+      font-size: .85em;
+
+    }
+    .footer-body {
+      font-size: .85em;
+
+    }
+}
 
